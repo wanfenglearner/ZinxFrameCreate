@@ -1,0 +1,16 @@
+#设置忽略文件
+.vscode/
+
+#01目录
+01/bin/*
+01/!bin/.gitkeep
+01/build/*
+01/!build/.gitkeep
+
+#02目录
+02/bin/*
+02/!bin/.gitkeep
+02/build/*
+02/!build/.gitkeep
+
+
