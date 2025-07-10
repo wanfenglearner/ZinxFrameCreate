@@ -37,8 +37,7 @@ bool FIFOChannel::init() {
 
         flag = O_WRONLY;
     }
-
-    int fd = open(m_filename.c_str(), flag);
+    int fd = open(m_filename.c_str(), flag | O_NONBLOCK);
     if(fd >= 0) {
         m_fd = fd;
         bRet = true;
