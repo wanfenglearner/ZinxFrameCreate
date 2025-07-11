@@ -13,4 +13,8 @@
 02/build/*
 02/!build/.gitkeep
 
-
+#03目录
+03/bin/*
+03/!bin/.gitkeep
+03/build/*
+03/!build/.gitkeep

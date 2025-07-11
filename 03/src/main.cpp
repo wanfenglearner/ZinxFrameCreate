@@ -4,6 +4,7 @@
 #include "stdinchannel.hpp"
 #include "stdoutchannel.hpp"
 #include "fifochannel.hpp"
+#include "upper.hpp"
 
 int main() {
 
@@ -11,7 +12,9 @@ int main() {
     StdInChannel in_channel;
     StdOutChannel out_channel;
 
-    in_channel.setStdOutChannel(&out_channel);
+    Upper upper;
+    in_channel.setUpper(&upper);
+    upper.setoutChannel(&out_channel);
 
     ZinxKernel::getInstance()->addChannel(&in_channel);
     ZinxKernel::getInstance()->addChannel(&out_channel);
