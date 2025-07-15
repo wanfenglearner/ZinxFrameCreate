@@ -17,6 +17,7 @@ std::string Upper::toUpper(std::string str) {
     std::transform(str.begin(), str.end(), str.begin(), [](char c){
         return std::toupper(c);
     });
+    
 
     return str;
 }

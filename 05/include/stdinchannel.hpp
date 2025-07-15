@@ -14,7 +14,6 @@ public:
     ~StdInChannel();
 
 
-
     // 初始化函数
     bool init();
 
@@ -30,15 +29,16 @@ public:
     // 得到文件描述符
     int getFd();
 
-    // 处理消息
-    void data_process(std::string output);
+    // 获得下一个消息处理
+    ZinxHandler* getInputStage(BytesMsg* msg);
 
-    // 设置转大写类
+    // 设置大小写转换类
     void setUpper(Upper* upper);
     
 
 private:
 
+    // 存储大小写转换类
     Upper* m_upper;
 };
 
