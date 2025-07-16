@@ -1,3 +1,0 @@
-/home/robin/project/ZinxFrameCreate/05/build/CMakeFiles/05.dir
-/home/robin/project/ZinxFrameCreate/05/build/CMakeFiles/edit_cache.dir
-/home/robin/project/ZinxFrameCreate/05/build/CMakeFiles/rebuild_cache.dir

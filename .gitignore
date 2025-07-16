@@ -1,26 +1,19 @@
 #设置忽略文件
 .vscode/
+.vs
 
-#01目录
-01/bin/*
-01/!bin/.gitkeep
-01/build/*
-01/!build/.gitkeep
+*/bin/
+!*/bin/.gitkeep
 
-#02目录
-02/bin/*
-02/!bin/.gitkeep
-02/build/*
-02/!build/.gitkeep
+*/build/
+!*/build/.gitkeep
 
-#03目录
-03/bin/*
-03/!bin/.gitkeep
-03/build/*
-03/!build/.gitkeep
+*/obj/
 
-#04目录
-04/bin/*
-04/!bin/.gitkeep
-04/build/*
-04/!build/.gitkeep
+*.sln
+*.filters
+*.user
+*.vcxproj
+
+
+

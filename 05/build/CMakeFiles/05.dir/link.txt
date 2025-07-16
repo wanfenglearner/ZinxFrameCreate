@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/05.dir/src/ichannel.cpp.o CMakeFiles/05.dir/src/main.cpp.o CMakeFiles/05.dir/src/stdinchannel.cpp.o CMakeFiles/05.dir/src/stdoutchannel.cpp.o CMakeFiles/05.dir/src/upper.cpp.o CMakeFiles/05.dir/src/zinxhandler.cpp.o CMakeFiles/05.dir/src/zinxkernel.cpp.o -o ../bin/05 
