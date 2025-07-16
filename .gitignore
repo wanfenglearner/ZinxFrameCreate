@@ -2,11 +2,11 @@
 .vscode/
 .vs
 
-*/bin/
-!*/bin/.gitkeep
+**/bin/*
+!**/bin/.gitkeep
 
-*/build/
-!*/build/.gitkeep
+**/build/*
+!**/build/.gitkeep
 
 */obj/
 
